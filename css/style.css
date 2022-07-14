@@ -1,0 +1,32 @@
+body { 
+    font-family: Rubik;
+    background-color: #f2994b;
+    color: #023859
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Ibarra Real Nova";
+    font-size: 50pt;
+}
+
+header {
+    text-align: center;
+
+}
+
+#hero, footer {
+   color: #FFFFFF;
+   border: 2px solid;
+    background-color: #0487D9;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-size-adjust: 40px;
+    text-align:center;
+}
