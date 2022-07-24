@@ -6,7 +6,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Ibarra Real Nova";
-    font-size: 50pt;
+    text-align:center
+}
+
+h1 {
+    font-size: 50pt
 }
 
 header {
@@ -29,4 +33,28 @@ header {
 #bio {
     text-size-adjust: 40px;
     text-align:center;
+}
+
+#hobbies ul li:first-child {
+    color:red
+}
+
+#hobbies ul li:nth-child(2) {
+    color:green
+}
+
+#hobbies ul li:nth-child(3) {
+    color:blue
+}
+
+#hobbies ul li:nth-child(4) {
+    color:yellow
+}
+
+#hobbies ul li:nth-child(5) {
+    color: white
+}
+
+#hobbies ul li:nth-child(6) {
+    color:purple
 }
