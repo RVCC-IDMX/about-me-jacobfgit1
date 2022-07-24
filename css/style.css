@@ -68,7 +68,7 @@ header {
 /* Gallery */
 
 #gallery {
-    border: 3px solid #0487D9
+    border: 2px solid #0487D9
 }
 
 #gallery img {
@@ -83,4 +83,60 @@ header {
     color:wheat
 
 }
+
+/* Literature */
+
+#lit {
+    border: 2px solid #0487D9;
+    margin-bottom:2rem;
+
+}
+
+#lit div {
+    padding:2rem;
+    max-width:40rem;
+    margin: 0 auto;
+
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear:both;
+}
+
+/* Dropcaps */
+
+#lit div p::first-letter {
+    float:left;
+    font-size:4em;
+    padding:.4em;
+    line-height:.7;
+    color:#FFFFFF;
+
+    
+}
+
+#lit div p {
+    font-size: 1.2rem;
+} 
+
+#lit div p:first-child {
+
+    color:#0487D9;
+    
+}
+
+
+
+#lit div p:nth-child(2n) {
+    color:white
+    
+}
+
+#lit div p:nth-child(3n) {
+    color:#0487D9
+}
+
+
+
 
