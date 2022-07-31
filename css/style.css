@@ -1,16 +1,20 @@
 body { 
     font-family: Rubik;
     background-color: #f2994b;
-    color: #023859
+    color: #023859;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Ibarra Real Nova";
-    text-align:center
+    text-align:center;
 }
 
 h1 {
-    font-size: 50pt
+    font-size: 50pt;
+}
+
+h2 {
+    margin: .1em
 }
 
 header {
@@ -41,34 +45,40 @@ header {
 
 /* Hobbies Section */
 
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #hobbies ul li:first-child {
-    color:red
+    color:red;
 }
 
 #hobbies ul li:nth-child(2) {
-    color:green
+    color:green;
 }
 
 #hobbies ul li:nth-child(3) {
-    color:blue
+    color:blue;
 }
 
 #hobbies ul li:nth-child(4) {
-    color:yellow
+    color:yellow;
 }
 
 #hobbies ul li:nth-child(5) {
-    color: white
+    color: white;
 }
 
 #hobbies ul li:nth-child(6) {
-    color:purple
+    color:purple;
 }
 
 /* Gallery */
 
 #gallery {
-    border: 2px solid #0487D9
+    border: 2px solid #0487D9;
 }
 
 #gallery img {
@@ -80,7 +90,7 @@ header {
 }
 
 #gallery figcaption {
-    color:wheat
+    color:wheat;
 
 }
 
@@ -100,42 +110,59 @@ header {
 }
 
 #lit div p {
-    padding: 0.3rem 0;
+    padding: 0.5rem 0;
     clear:both;
+    margin: 1rem;
 }
 
 /* Dropcaps */
 
 #lit div p::first-letter {
     float:left;
-    font-size:4em;
-    padding:.4em;
-    line-height:.7;
-    color:#FFFFFF;
-
+    font-size:3em;
+    padding:.6em;
+    color:#0487D9;
+    line-height: 0.25rem;
     
 }
 
 #lit div p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+   
 } 
 
-#lit div p:first-child {
+#lit div p:nth-child(odd) {
 
-    color:#0487D9;
+    color:#FFFFFF;
     
 }
 
 
+#lit div p:nth-child(even) {
 
-#lit div p:nth-child(2n) {
-    color:white
+    color:white;
     
 }
 
-#lit div p:nth-child(3n) {
-    color:#0487D9
+/* Media */
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+
 }
+
+
 
 
 
