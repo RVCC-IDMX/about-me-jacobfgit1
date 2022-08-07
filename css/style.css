@@ -144,6 +144,38 @@ section#hobbies {
     
 }
 
+/* Video */
+
+#video {
+    width: 100%;
+    border: 2px solid #0487D9
+
+}
+.iframe-container {
+    position: relative;
+    max-width: 100%;
+    padding-bottom:60%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top:2em;
+    width:60%;
+    height:60%;
+    padding: 5px;
+    border: 2px solid #FFFFFF;
+}
+
+
+
+
+
+
+
 /* Tablet Size */
 
 @media screen and (min-width: 60em) {
@@ -167,7 +199,18 @@ section#hobbies {
     #lit div {
         max-width: 100%;
         columns:20rem;
+        
     }
+
+    #video .iframe-container {
+        display: flex;
+        justify-content: center;
+
+    }
+    
+
+
+
 
 }
 
